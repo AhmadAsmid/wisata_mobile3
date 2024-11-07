@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Lottie.network(
                 'https://lottie.host/956e1e4f-8c98-4206-ae82-50dd50161d69/dtw01aXDDE.json'),
-            Column(
+            const Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 SizedBox(
